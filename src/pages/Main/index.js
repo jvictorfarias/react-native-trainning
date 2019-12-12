@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Keyboard } from 'react-native';
+import { Keyboard, ActivityIndicator } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {
   Container,
@@ -19,10 +19,11 @@ import api from '../../services/api';
 export default function Main() {
   const [users, setUsers] = useState([]);
   const [user, setUser] = useState('');
+  const [loading, setLoading] = useState(false);
 
   async function handleSubmit() {
+    setLoading(true);
     const response = await api.get(`/users/${user}`);
-
     const data = {
       name: response.data.name,
       login: response.data.login,
@@ -32,6 +33,7 @@ export default function Main() {
 
     setUsers([...users, data]);
     setUser('');
+    setLoading(false);
 
     Keyboard.dismiss();
   }
@@ -48,14 +50,18 @@ export default function Main() {
           returnKeyType="send"
           onSubmitEditing={handleSubmit}
         />
-        <SubmitButton onPress={handleSubmit}>
-          <Icon name="add" size={20} color="#fff" />
+        <SubmitButton loading={loading} onPress={handleSubmit}>
+          {loading ? (
+            <ActivityIndicator color="#fff" />
+          ) : (
+            <Icon name="add" size={20} color="#fff" />
+          )}
         </SubmitButton>
       </Form>
 
       <List
         data={users}
-        keyExtractor={user => user.login}
+        keyExtractor={userPicked => userPicked.login}
         renderItem={({ item }) => (
           <User>
             <Avatar source={{ uri: item.avatar }} />
