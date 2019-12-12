@@ -4,7 +4,7 @@
             "outputFile": "/home/jvictorfarias/Documents/GoStack/modulo06/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/jvictorfarias/.gradle/caches/transforms-2/files-2.1/e453919cdc7339a8a6bb18fc0db37353/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/jvictorfarias/.gradle/caches/transforms-2/files-2.1/f3baaba8075a54177cb57fd1c8c9f2b7/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

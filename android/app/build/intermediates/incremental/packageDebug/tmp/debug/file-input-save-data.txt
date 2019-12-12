@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 11 20:19:32 BRT 2019
+#Wed Dec 11 21:43:53 BRT 2019
 56.path=lib/arm64-v8a/libyoga.so
 5.base=/home/jvictorfarias/Documents/GoStack/modulo06/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/home/jvictorfarias/Documents/GoStack/modulo06/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

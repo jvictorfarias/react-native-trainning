@@ -4,7 +4,17 @@
             "outputFile": "/home/jvictorfarias/Documents/GoStack/modulo06/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/jvictorfarias/.gradle/caches/transforms-2/files-2.1/e453919cdc7339a8a6bb18fc0db37353/res/values-v16/values-v16.xml",
+                    "source": "/home/jvictorfarias/.gradle/caches/transforms-2/files-2.1/7a2b53061f539967b21f6fdb68bae5ab/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/jvictorfarias/.gradle/caches/transforms-2/files-2.1/f3baaba8075a54177cb57fd1c8c9f2b7/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/jvictorfarias/.gradle/caches/transforms-2/files-2.1/5688b25c5925c831565e540bba326ed0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]
