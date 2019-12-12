@@ -1,4 +1,0 @@
-#Wed Dec 11 21:43:51 BRT 2019
-base.0=/home/jvictorfarias/Documents/GoStack/modulo06/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
